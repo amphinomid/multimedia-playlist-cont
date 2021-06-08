@@ -70,347 +70,79 @@ a:active {
 
 .summer-songs, .autumn-songs {
     display: grid;
-    grid-template-columns: repeat(27, 270px);
+    grid-template-columns: repeat(10, 270px);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 2px;
     margin-top: 5px;
     background: #FFFFFF00;
 }
 
-.youbetterknow-redvelvet-lyrics {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    align-self: start;
-    justify-self: end;
-    margin-top: 15px;
-    font-size: 1.1vw;
-    text-align: right;
-}
-
-.theredsummer-redvelvet {
+.a1, .s1 {
     grid-column: 1;
-    grid-row: 1 / 4;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.a2, .s2 {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.a3, .s3 {
+    grid-column: 3;
+    grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.zoo-redvelvet-lyrics {
-    grid-column: 2;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: end;
-    margin-top: -100px;
-}
-
-.mojito-redvelvet-lyrics {
-    grid-column: 2;
-    grid-row: 1 / 4;
-    align-self: end;
-    justify-self: start;
-    margin-bottom: 90px;
-}
-
-.tongnian-luodayou {
-    grid-column: 3;
-    grid-row: 1 / 3;
-    align-self: start;
-    justify-self: center;
-}
-
-.tongnian-luodayou-lyrics {
-    grid-column: 3;
-    grid-row: 3;
-    align-self: start;
-    justify-self: center;
-    margin-top: 8px;
-    text-align: center;
-}
-
-.sundaycandy-donnietrumpet {
+.a4, .s4 {
     grid-column: 4;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.eight-iu {
+.a5, .s5 {
     grid-column: 5;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.icantbreathe-her {
+.a6, .s6 {
     grid-column: 6;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.icantbreathe-her-lyrics {
-    grid-column: 7;
-    grid-row: 1 / 4;
-    align-self: start;
-    justify-self: center;
-    font-size: 1.4vw;
-    text-align: justify;
-}
-
-.talkremix-khalidmegantheestallionyogotti {
-    grid-column: 8;
-    grid-row: 1 / 4;
-    align-self: center;
-    justify-self: center;
-}
-
-.naughty-ireneseulgi {
-    grid-column: 9;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.something-george {
-    grid-column: 9;
-    grid-row: 3;
-    align-self: start;
-    justify-self: center;
-}
-
-.pporappippam-sunmi-lyrics1 {
-    grid-column: 10;
-    grid-row: 1;
-    align-self: start;
-    justify-self: start;
-    color: #FFFFFF;
-    margin-left: 8px;
-}
-
-.pporappippam-sunmi {
-    grid-column: 10;
-    grid-row: 1 / 4;
-    align-self: start;
-    justify-self: center;
-    margin-top: 25px;
-}
-
-.pporappippam-sunmi-lyrics2 {
-    grid-column: 10;
-    grid-row: 2 / 4;
-    align-self: center;
-    justify-self: end;
-    color: #FFFFFF;
-    margin-top: 95px;
-    text-align: right;
-    margin-right: 8px;
-}
-
-.freesomebody-luna-lyrics {
-    grid-column: 11;
-    grid-row: 1;
-    align-self: start;
-    justify-self: center;
-    color: #FFFFFF;
-}
-
-.freesomebody-luna {
-    grid-column: 11;
-    grid-row: 1 / 4;
-    align-self: center;
-    justify-self: center;
-}
-
-.onlyone-gallant {
-    grid-column: 12;
-    grid-row: 1 / 4;
-    align-self: center;
-    justify-self: center;
-}
-
-.ology-gallant {
-    grid-column: 13;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.hearditinapastlife-maggierogers {
-    grid-column: 14;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.lovesong1990-luodayou {
-    grid-column: 15;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.somewhereinbrooklyn-brunomars {
-    grid-column: 16;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.intotheiland-iu {
-    grid-column: 17;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.intotheiland-iu-lyrics {
-    grid-column: 18 / 222;
-    grid-row: 1 / 4;
-    align-self: start;
-    justify-self: start;
-    color: #FFFFFF;
-    font-size: 1.4vw;
-    margin-left: 8px;
-    margin-top: 15px;
-}
-
-.autumn-songs {
-    display: grid;
-    grid-template-columns: repeat(31, 270px);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 2px;
-    margin-top: 5px;
-    background: #FFFFFF00;
-}
-
-.eleveneleven-taeyeon {
-    grid-column: 1;
-    grid-row: 1 / 3;
-    align-self: start;
-    justify-self: center;
-}
-
-.rina-rinasawayama {
-    grid-column: 2;
-    grid-row: 1 / 3;
-    align-self: start;
-    justify-self: center;
-}
-
-.astroworld-travisscott {
-    grid-column: 3;
-    grid-row: 1 / 3;
-    align-self: start;
-    justify-self: center;
-}
-
-.miseducation-laurynhill {
-    grid-column: 4;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.miseducation-laurynhill-comments2 {
-    grid-column: 5 / 7;
-    grid-row: 1 / 4;
-    align-self: start;
-    justify-self: start;
-    margin-top: 15px;
-    margin-left: 8px;
-    font-size: 1.4vw;
-}
-
-.sleeplessin-epikhigh {
+.a7, .s7 {
     grid-column: 7;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.inseoul-epikhigh-lyrics {
-    grid-column: 5 / 7;
-    grid-row: 1 / 4;
-    align-self: center;
-    justify-self: end;
-    margin-top: 30px;
-    margin-right: 8px;
-    font-size: 1.25vw;
-    text-align: right;
-}
-
-.bestpart-her {
+.a8, .s8 {
     grid-column: 8;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.warning-sunmi {
+.a9, .s9 {
     grid-column: 9;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.gocrazy-megantheestallion {
+.a10, .s10 {
     grid-column: 10;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
-}
-
-.writteninthestars-johnlegendwendy {
-    grid-column: 11;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.cyanide-danielcaesar {
-    grid-column: 12;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.rbb-redvelvet-album {
-    grid-column: 13;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.lovepoem-iu-album {
-    grid-column: 14;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.unlucky-iu-lyrics {
-    grid-column: 13 / 15;
-    grid-row: 3;
-    align-self: start;
-    justify-self: center;
-    margin-top: 15px;
-    font-size: 1.3vw;
-    text-align: justify;
-    color: #FFFFFF;
-}
-
-.xxx-kendricklamar {
-    grid-column: 15;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: center;
-}
-
-.xxx-kendricklamar-lyrics {
-    grid-column: 16 / 19;
-    grid-row: 1 / 3;
-    align-self: center;
-    justify-self: start;
-    margin-left: 8px;
-    color: #FFFFFF;
-    font-size: 1.5vw;
 }
